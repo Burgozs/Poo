@@ -1,0 +1,160 @@
+package ooptarea;
+
+
+
+public class ooptarea {
+ 
+public static void main (String[] args) {
+  
+  Vehiculo Vehiculo1 = new Vehiculo(); 
+  Vehiculo1.setColor("Celeste");
+  Vehiculo1.setClimatizador("Si");
+  Vehiculo1.setAsientos("Si");
+  Vehiculo Vehiculo2 = new Vehiculo(); 
+    Vehiculo1.setColor("Rojo y Blanco");
+  Vehiculo1.setClimatizador("Si");
+  Vehiculo1.setAsientos("No");
+  Vehiculo Vehiculo3 = new Vehiculo(); 
+    Vehiculo1.setColor("Rojo");
+  Vehiculo1.setClimatizador("No");
+  Vehiculo1.setAsientos("No");
+  Vehiculo Vehiculo4 = new Vehiculo(); 
+   Vehiculo1.setColor("Negro y Gris");
+  Vehiculo1.setClimatizador("Si");
+  Vehiculo1.setAsientos("Si");
+  Vehiculo Vehiculo5 = new Vehiculo(); 
+   Vehiculo1.setColor("Rojo");
+  Vehiculo1.setClimatizador("No");
+  Vehiculo1.setAsientos("No");
+  Vehiculo Vehiculo6 = new Vehiculo(); 
+   Vehiculo1.setColor("Azul y Blanco");
+  Vehiculo1.setClimatizador("Si");
+  Vehiculo1.setAsientos("No");
+  
+  Furgo furgo1 = new Furgo(7, 300);
+  furgo1.setColor("Rojo");
+  furgo1.setAsientos("No");
+  furgo1.setClimatizador("No");
+  Furgo furgo2 = new Furgo(5, 400);
+  furgo2.setColor("Negro");
+  furgo2.setAsientos("Si");
+  furgo2.setClimatizador("Si");
+  Furgo furgo3 = new Furgo(3, 250);
+  furgo3.setColor("Blanco");
+  furgo3.setAsientos("No");
+  furgo3.setClimatizador("Si");
+  Furgo furgo4 = new Furgo(4, 200);
+  furgo4.setColor("Gris");
+  furgo4.setAsientos("No");
+  furgo4.setClimatizador("Si");
+  Furgo furgo5 = new Furgo(3, 400);
+  furgo5.setColor("Negro");
+  furgo5.setAsientos("Si");
+  furgo5.setClimatizador("Si");
+  Furgo furgo6 = new Furgo(0, 800);
+  furgo6.setColor("Negro");
+  furgo6.setAsientos("Si");
+  furgo6.setClimatizador("Si");
+          
+  
+  
+  
+  
+ 
+                  System.out.println("Las caracteristica generales de la primera instancia son: \n" + Vehiculo1.getDatos_generales());
+                  System.out.println(Vehiculo1.getClimatizador());
+                  System.out.println(Vehiculo1.getAsientos());
+                  System.out.println(Vehiculo1.getPeso_vehiculo());
+                  System.out.println("El precio final del vehiculo es de " + Vehiculo1.precio_vehiculo());
+              
+                  System.out.println("Las caracteristica generales de la segunda instancia son: \n" + Vehiculo2.getDatos_generales());
+                  System.out.println(Vehiculo2.getClimatizador());
+                  System.out.println(Vehiculo2.getAsientos());
+                  System.out.println(Vehiculo2.getPeso_vehiculo());
+                  System.out.println("El precio final del vehiculo es de " + Vehiculo2.precio_vehiculo());
+              
+                  System.out.println("Las caracteristica generales de la tercera instancia son: \n" + Vehiculo3.getDatos_generales());
+                  System.out.println(Vehiculo3.getClimatizador());
+                  System.out.println(Vehiculo3.getAsientos());
+                  System.out.println(Vehiculo3.getPeso_vehiculo());
+                  System.out.println("El precio final del vehiculo es de " + Vehiculo3.precio_vehiculo());
+
+                    
+                  System.out.println("Las caracteristica generales de la cuarta instancia son: \n" + Vehiculo4.getDatos_generales());
+                  System.out.println(Vehiculo4.getClimatizador());
+                  System.out.println(Vehiculo4.getAsientos());
+                  System.out.println(Vehiculo4.getPeso_vehiculo());
+                  System.out.println("El precio final del vehiculo es de " + Vehiculo4.precio_vehiculo());
+                     
+                  System.out.println("Las caracteristica generales de la quinta instancia son: \n" + Vehiculo5.getDatos_generales());
+                  System.out.println(Vehiculo5.getClimatizador());
+                  System.out.println(Vehiculo5.getAsientos());
+                  System.out.println(Vehiculo5.getPeso_vehiculo());
+                  System.out.println("El precio final del vehiculo es de " + Vehiculo5.precio_vehiculo());
+                          
+                  System.out.println("Las caracteristica generales de la sexta instancia son: \n" + Vehiculo6.getDatos_generales());
+                  System.out.println(Vehiculo6.getClimatizador());
+                  System.out.println(Vehiculo6.getAsientos());
+                  System.out.println(Vehiculo6.getPeso_vehiculo());
+                  System.out.println("El precio final del vehiculo es de " + Vehiculo6.precio_vehiculo());
+                              
+         
+          
+                    
+                    
+  
+           
+       
+          
+                  System.out.println("Las caracteristica generales de la sexta instancia son: \n" + furgo1.getDatos_generales());
+                  System.out.println(furgo1.getClimatizador());
+                  System.out.println(furgo1.getAsientos());
+                  System.out.println(furgo1.getPeso_vehiculo());
+                  System.out.println("El precio final del vehiculo es de " + furgo1.precio_furgo());
+                
+                  System.out.println("Las caracteristica generales de la sexta instancia son: \n" + furgo2.getDatos_generales());
+                  System.out.println(furgo2.getClimatizador());
+                  System.out.println(furgo2.getAsientos());
+                  System.out.println(furgo2.getPeso_vehiculo());
+                  System.out.println("El precio final del vehiculo es de " + furgo2.precio_furgo());
+              
+                  System.out.println("Las caracteristica generales de la sexta instancia son: \n" + furgo3.getDatos_generales());
+                  System.out.println(furgo3.getClimatizador());
+                  System.out.println(furgo3.getAsientos());
+                  System.out.println(furgo3.getPeso_vehiculo());
+                  System.out.println("El precio final del vehiculo es de " + furgo3.precio_furgo());
+                    
+                  System.out.println("Las caracteristica generales de la sexta instancia son: \n" + furgo4.getDatos_generales());
+                  System.out.println(furgo4.getClimatizador());
+                  System.out.println(furgo4.getAsientos());
+                  System.out.println(furgo4.getPeso_vehiculo());
+                  System.out.println("El precio final del vehiculo es de " + furgo4.precio_furgo());
+                      
+                  System.out.println("Las caracteristica generales de la sexta instancia son: \n" + furgo5.getDatos_generales());
+                  System.out.println(furgo5.getClimatizador());
+                  System.out.println(furgo5.getAsientos());
+                  System.out.println(furgo5.getPeso_vehiculo());
+                  System.out.println("El precio final del vehiculo es de " + furgo5.precio_furgo());
+                           
+                  System.out.println("Las caracteristica generales de la sexta instancia son: \n" + furgo6.getDatos_generales());
+                  System.out.println(furgo6.getClimatizador());
+                  System.out.println(furgo6.getAsientos());
+                  System.out.println(furgo6.getPeso_vehiculo());
+                  System.out.println("El precio final del vehiculo es de " + furgo6.precio_furgo());
+                            
+     
+  
+}
+  
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+ }
+
+
